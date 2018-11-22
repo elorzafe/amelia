@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "testapibc5b17fd",
+            "privacy": {
+                "protected": true,
+                "auth": "rw",
+                "unauth": "r"
+            }
+        }
+    ],
+    "resourceName": "api64b390cb",
+    "apiName": "api64b390cb",
+    "functionArns": [
+        {
+            "lambdaFunction": "testapibc5b17fd"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "testapi-20181121174945-authRole",
+        "unAuthRoleName": "testapi-20181121174945-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "testapibc5b17fd",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

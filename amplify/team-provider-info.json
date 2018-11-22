@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "testapi-20181121174945-authRole",
+            "UnauthRoleArn": "arn:aws:iam::718964827855:role/testapi-20181121174945-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::718964827855:role/testapi-20181121174945-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "testapi-20181121174945-deployment",
+            "UnauthRoleName": "testapi-20181121174945-unauthRole",
+            "StackName": "testapi-20181121174945",
+            "StackId": "arn:aws:cloudformation:us-west-2:718964827855:stack/testapi-20181121174945/e39930e0-edf8-11e8-a0d7-0a45bad35fbe"
+        },
+        "categories": {
+            "auth": {
+                "cognito3cf223d8": {}
+            }
+        }
+    }
+}

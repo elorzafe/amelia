@@ -12,7 +12,7 @@ class App extends Component {
   }
   async get() {
     console.log('calling api...');
-    const data = await API.get('api64b390cb', '/items/lala');
+    const data = await API.get('api64b390cb', '/items/elorzafe');
     console.log({ data });
   }
   async put() {
